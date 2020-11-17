@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t mystreams:0.1 .[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory /Users/surendragandham/IdeaProjects/MyStreams/target/docker/stage[0m[0J
+[0m[[0m[31merror[0m] [0m[0m#1 [internal] load .dockerignore[0m[0J
+[0m[[0m[31merror[0m] [0m[0m#1 transferring context: 2B 0.0s done[0m[0J
+[0m[[0m[31merror[0m] [0m[0m#1 DONE 0.0s[0m[0J
+[0m[[0m[31merror[0m] [0m[0m#2 [internal] load build definition from Dockerfile[0m[0J
+[0m[[0m[31merror[0m] [0m[0m#2 transferring dockerfile: 179B 0.0s done[0m[0J
+[0m[[0m[31merror[0m] [0m[0m#2 DONE 0.0s[0m[0J
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/openjdk:latest[0m[0J
+[0m[[0m[31merror[0m] [0m[0m#3 DONE 5.3s[0m[0J
+[0m[[0m[31merror[0m] [0m[0m#4 [1/3] FROM docker.io/library/openjdk:latest@sha256:991bc7d54946929a05345...[0m[0J
+[0m[[0m[31merror[0m] [0m[0m#4 DONE 0.0s[0m[0J
+[0m[[0m[31merror[0m] [0m[0m#6 [internal] load build context[0m[0J
+[0m[[0m[31merror[0m] [0m[0m#6 transferring context: 3.64kB 0.0s done[0m[0J
+[0m[[0m[31merror[0m] [0m[0m#6 DONE 0.0s[0m[0J
+[0m[[0m[31merror[0m] [0m[0m#5 [2/3] WORKDIR /opt/docker[0m[0J
+[0m[[0m[31merror[0m] [0m[0m#5 CACHED[0m[0J
+[0m[[0m[31merror[0m] [0m[0m#7 [3/3] ADD --chown=daemon:daemon opt /opt[0m[0J
+[0m[[0m[31merror[0m] [0m[0m#7 CACHED[0m[0J
+[0m[[0m[31merror[0m] [0m[0m#8 exporting to image[0m[0J
+[0m[[0m[31merror[0m] [0m[0m#8 exporting layers done[0m[0J
+[0m[[0m[31merror[0m] [0m[0m#8 writing image sha256:6fe410d20c5b10c58fe60aaafa28b9279303485dc290b065da041b96ec5025da done[0m[0J
+[0m[[0m[31merror[0m] [0m[0m#8 naming to docker.io/library/mystreams:0.1 done[0m[0J
+[0m[[0m[31merror[0m] [0m[0m#8 DONE 0.0s[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mBuilt image mystreams with tags [0.1][0m[0J
